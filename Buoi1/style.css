@@ -1,0 +1,42 @@
+header>h1 {
+    text-align: center;
+    color: red;
+}
+
+.info>h1 {
+    color: white;
+    background-color: #EE82EF;
+}
+
+.info-item>span {
+    color: blue;
+}
+
+.request>h1 {
+    color: blue;
+    background-color: #B0DFE5;
+}
+
+table {
+    width: 100%;
+    background-image: url('./Table.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+tr>td:first-child {
+    text-align: center;
+}
