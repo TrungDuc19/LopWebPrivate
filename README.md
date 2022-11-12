@@ -6,4 +6,4 @@
 - Bài 1: https://trungduc19.github.io/LopWebPrivate/Buoi2/Bai1/
 - Bài 2: https://trungduc19.github.io/LopWebPrivate/Buoi2/Bai2/
 ## Buổi 3
-- Bài 1: https://trungduc19.github.io/LopWebPrivate/Buoi3/Bai1/
+- Bài 1: https://trungduc19.github.io/LopWebPrivate/Buoi3/
