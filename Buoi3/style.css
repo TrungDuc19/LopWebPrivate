@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    color: white;
+    background-color: #FC9C5F;
+}
+
+.header-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.header-avatar>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 12px 0 90px;
+}
+
+.header-contact {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+}
+
+.header-contact>i {
+    padding: 4px;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    border: 20px solid #F67B2B;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.main {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content {
+    width: 70%;
+}
+
+.heading {
+    display: flex;
+    justify-content: left;
+    margin: 32px 0;
+}
+
+.heading-item {
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+}
+
+.heading-item.active {
+    color: white;
+    background-color: #F67B2B;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 32px 0;
+}
+
+.course-item {
+    width: 31%;
+    height: 164px;
+    background-color: white;
+    margin: 8px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #AFAFAF;
+    overflow: hidden;
+}
+
+.course-item>img {
+    width: 100%;
+    height: 120px;
+    display: block;
+    object-fit: contain;
+}
+
+.course-item>h5 {
+    padding: 4px 8px;
+}
+
+.course-item>p {
+    margin: 4px 8px;
+    font-size: 12px;
+}
+
+.sidebar {
+    width: 30%;
+    margin: 32px 20px;
+}
+
+.sidebar-heading {
+    width: 100%;
+    margin-bottom: 32px;
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+    background-color: #F67B2B;
+}
+
+.noti-item {
+    height: 60px;
+    background-color: white;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #AFAFAF;
+}
+
+.noti-item>h5 {
+    padding: 8px;
+}
+
+.noti-item>p {
+    margin: 0 8px 4px;
+    font-size: 12px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    background-color: #F67B2B;
+}
+
+footer span,
+footer>i {
+    color: red;
+}
+
+footer>i {
+    margin-left: 4px;
+    font-size: 20px;
+}
