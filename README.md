@@ -10,3 +10,4 @@
 ## Buổi 4
 - Bài 1: https://trungduc19.github.io/LopWebPrivate/Buoi4/Bai1/
 - Bài 2: https://trungduc19.github.io/LopWebPrivate/Buoi4/Bai2/
+- Bài 3: https://trungduc19.github.io/LopWebPrivate/Buoi4/Bai3/
