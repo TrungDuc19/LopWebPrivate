@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Open sans;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #61D9DE, #7C70E8, #E037EF);
+}
+
+input {
+    border: none;
+    padding: 16px;
+}
+
+#app {
+    width: 40%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
+}
+
+.heading {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.username,
+.password {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.forgot {
+    display: flex;
+    justify-content: right;
+}
+
+.button {
+    width: 100%;
+    margin: 20px 0;
+    padding: 12px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, #68D4DB, #A58CEB, #E63DF6);
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.signup-title {
+    font-size: 14px;
+}
+
+.signup-wrap {
+    margin: 12px 0;
+}
+
+.signup-wrap>i {
+    font-size: 40px;
+    margin: 0 4px;
+}
+
+.signup-wrap>i:first-child {
+    color: #425994;
+}
+
+.signup-wrap>i:nth-child(2) {
+    color: #49A1EC;
+}
+
+.signup-wrap>i:last-child {
+    color: #CD523A;
+}
