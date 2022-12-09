@@ -5,11 +5,26 @@
 |  Let  |      ❌     |       ✅      |      ✅     |        ✅        |
 | Const |      ❌     |       ✅      |      ✅     |        ❌        |
 # Các toán tử trong JavaScript
-> Toán tử số học: +, -, *, **(ES6), /, %, ++, --
-> Toán tử so sánh: ==, ===, !=, !==, >, <, >=, <=, ?
-> Toán tử logic: &&, ||, !
-> Toán tử gán: =, +=, -=, *=, /=, %=, **= 
-> Toán tử 3 ngôi: ?:
+> Toán tử số học: 
+```
++, -, *, **(ES6), /, %, ++, --
+```
+> Toán tử so sánh: 
+```
+==, ===, !=, !==, >, <, >=, <=, ?
+```
+> Toán tử logic: 
+```
+&&, ||, !
+```
+> Toán tử gán: 
+```
+=, +=, -=, *=, /=, %=, **= 
+```
+> Toán tử 3 ngôi: 
+```
+?:
+```
 # Câu lệnh điều kiện trong JavaScript
 > Câu lệnh if
 ```
