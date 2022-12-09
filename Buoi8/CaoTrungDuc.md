@@ -12,16 +12,21 @@
 > Toán tử 3 ngôi: ?:
 # Câu lệnh điều kiện trong JavaScript
 > Câu lệnh if
+```
 if(condition) {
 	// Code ở đây
 }
+```
 > Câu lệnh else 
+```
 if(condition) {
 	// condition = true thì code ở đây sẽ chạy
 } else {
 	// condition = false thì code ở đây sẽ chạy
 }
+```
 > Câu lệnh if...else lồng nhau
+```
 if(condition1) {
 	// condition1 = true thì code ở đây sẽ chạy
 } else {
@@ -33,5 +38,8 @@ if(condition1) {
 	    // condition2 = false thì code ở đây sẽ chạy
     }
 }
+```
 > Câu lệnh if...else rút gọn
+```
 condition ? // condition = true : // condition = false
+```
