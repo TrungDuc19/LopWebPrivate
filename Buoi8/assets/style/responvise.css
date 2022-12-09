@@ -2,7 +2,35 @@
 @media (max-width: 1023px) {}
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {}
+@media (min-width: 740px) and (max-width: 1023px) {
+    .services__item {
+        width: calc(100% / 2);
+    }
+
+    .portfolio__item {
+        width: calc(100% / 2);
+    }
+
+    .contact__description,
+    .contact__input,
+    .contact__container>.button {
+        width: 680px;
+    }
+}
 
 /* Mobile */
-@media (max-width: 739px) {}
+@media (max-width: 739px) {
+    .services__item {
+        width: calc(100%);
+    }
+
+    .portfolio__item {
+        width: calc(100%);
+    }
+
+    .contact__description,
+    .contact__input,
+    .contact__container>.button {
+        width: 360px;
+    }
+}
